@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import "typeface-calligraffitti"
 
 import Header from "./header"
 import "./layout.css"
@@ -37,7 +36,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} <a href="#">CuppaJoe</a>
+          © {new Date().getFullYear()} <a href="/">CuppaJoe</a>
         </footer>
       </div>
     </>
